@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="switchBtn">
+        <div class="effect-sw"></div>
+        <button type="button" class="toggle-btn" onclick="login()" id="log">Login</button>
+        <button type="button" class="toggle-btn" onclick="Register()" id="reg">Register</button>
+      </div>
+      <div class="social-icone">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i> 
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+
+      <form class="input-group" id="loginbtn">
+        <input type="text" placeholder="User Id" class="input-feild" required>
+        <input type="password" placeholder="password" class="input-feild" required>
+        <input type="checkbox" class="inputcheck"><span>Rember Password?</span>
+        <button type="submit" class="submitBtn">Login</button>
+      </form>
+
+
+      <form class="input-group" id="register-form">
+        <input type="text" placeholder="User Id" class="input-feild" required>
+
+        <input type="Email" placeholder="Email" class="input-feild" required>
+
+        <input type="password" placeholder="password" class="input-feild" required>
+
+        <input type="checkbox" class="inputcheck"><span>Rember Password?</span>
+        <button type="submit" class="submitBtn">Register</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
